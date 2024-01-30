@@ -27,7 +27,7 @@ spec:
               name: mongodb    
           volumeMounts:
             - name: mongodb-persistent-storage
-              mountPath: /var/lib/mongodb    
+              mountPath: /home/fernando/mongodb 
             - name: usermanagement-dbcreation-script
               mountPath: /docker-entrypoint-initdb.d #https://hub.docker.com/_/mysql Refer Initializing a fresh instance                                            
       volumes: 
