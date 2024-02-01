@@ -3,7 +3,7 @@ kind: Service
 metadata: 
   name: mongodb
 spec:
-  clusterIP: 10.0.92.111 
+  clusterIP: 10.0.92.111/24 
   selector:
     app: mongodb 
   ports: 
