@@ -3,8 +3,9 @@ kind: Service
 metadata: 
   name: mongodb
 spec:
+  clusterIP: 10.0.92.111 
   selector:
     app: mongodb 
   ports: 
     - port: 27017  
-  clusterIP: 10.0.92.111   
+    
